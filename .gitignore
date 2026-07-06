@@ -1,0 +1,31 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local data and generated artifacts
+paper_embeddings.npy
+paper_faiss.index
+*.pkl
+*.log
+
+# Model/cache directories (if present)
+.cache/
+/.cache/
